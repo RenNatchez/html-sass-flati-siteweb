@@ -25,7 +25,7 @@
 // section card
 .cards
     display: flex
-    justify-content: space-around
+    justify-content: space-between
     margin-right: 7vw
     margin-left: 7vw
     .card
@@ -60,7 +60,75 @@
             background-color: #ffffff
             border-radius: 50%
             padding: 1vw
+.contact
+    display: flex
+    justify-content: space-between
+    margin-right: 7vw
+    margin-left: 7vw
+    margin-bottom: 4vw
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+    .portfolio
+        flex:3
+        color:#2A2A2A
+        margin-right: 5vw
+        h2
+            font-size: 2vw
+        p:nth-of-type(1)
+            color: #7A848D
+        button
+            margin-top: 1vw
+            border-radius: 0.5vw
+            border: none
+            height: 3vw
+            width: 7vw
+            background-color: #3676BB
+            color: #ffffff
+            font-size: 0.8vw
 
         
+    .contact-card
+        flex: 5
+        display: flex
+        justify-content: space-between
+        text-align: center
+        .card
+            background-color: #363B47
+            width: 33%
+            border-bottom-right-radius: 1vw
+            border-bottom-left-radius: 1vw
+
+            .contact-bgi1
+                background-color: #2A2A2A
+                background-image: url(../../public/img/flati-design-screenshot1.png)
+                background-size: cover
+                border-bottom-right-radius: 1vw
+                height: 50%
+            .contact-bgi2
+                background-color: #2A2A2A
+                background-image: url(../../public/img/flati-design-screenshot2.png)
+                background-size: cover
+                height: 50%
+            .contact-bgi3
+                background-color: #2A2A2A
+                background-image: url(../../public/img/flati-design-screenshot3.png)
+                background-size: cover
+                height: 50%
+            .contact-texte
+                display: flex
+                flex-direction: column
+                align-items: center
+                justify-content: center
+                color: #ffffff
+                margin-left: 2vw
+                margin-right: 2vw
+                h5
+                    font-size: 1.2vw
+                    margin-bottom: 0px
+    
+
+
+
+
 
 
